@@ -7,6 +7,7 @@ gem 'rails', '4.0.0'
 gem 'less-rails'
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
