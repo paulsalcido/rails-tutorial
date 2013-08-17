@@ -13,6 +13,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 group :development, :test do
   gem 'pg', '0.15.1'
   gem 'rspec-rails'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 group :test do
