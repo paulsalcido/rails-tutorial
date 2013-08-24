@@ -14,6 +14,8 @@ group :development, :test do
   gem 'pg', '0.15.1'
   gem 'rspec-rails'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'cucumber-rails', '1.3.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 group :test do

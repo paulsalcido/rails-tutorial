@@ -14,7 +14,7 @@ describe "AuthenticationPages" do
       before { click_button "Sign in" }
 
       it { should have_title('Sign in') }
-      it { should have_selector('div.alert.alert-error', text: 'Invalid') }
+      it { should have_error_message('Invalid') }
     end
 
     describe "with valid information" do
