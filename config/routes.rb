@@ -2,6 +2,7 @@ SampleApp::Application.routes.draw do
   resources :users
   match '/signup',  to: 'users#new',            via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'
+  match '/signin',  to: 'sessions#create',      via: 'post'
   match '/signout', to: 'sessions#destroy',     via: 'delete'
 
   match '/help',    to: 'static_pages#help',    via: 'get'
