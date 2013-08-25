@@ -8,6 +8,7 @@ gem 'less-rails'
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
 gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'faker', '1.1.2'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
