@@ -8,3 +8,7 @@ by [Michael Hart](http://michaelhartl.com/).
 From my experiences on a blank lxc development server, here are some items:
 
 * sudo apt-get install libxslt1-dev
+
+Hey, salcido, if you see this again, remember to do these:
+
+[Extensions](http://ruby.railstutorial.org/chapters/following-users#sec-extensions_to_the_sample_application)
